@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.myform{
+width: 80%;
+background-color: darkseagreen;
+border-radius: 5px;
+padding: 15px;
+box-sizing: border-box;
+}
+
+.formfield{
+
+  padding: 10px 15px ;
+  margin: 8px 0 ;
+  display: block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 5px;
+}
+
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #8d8989;}
+
+.table{
+  border:2px solid #14d65e;
+  width:80%;
+  border-collapse:collapse;
+  vertical-align:middle;
+  margin-top:8px;
+  margin-bottom:8px;
+  background-color:rgb(128, 208, 240);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  
+}
